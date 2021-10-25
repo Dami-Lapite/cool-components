@@ -1,0 +1,56 @@
+.notice {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5em;
+  position: relative;
+}
+
+.notice-icon-box {
+  width: 4.5em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgb(235, 144, 39);
+  border-radius: 0.5em 0em 0em 0.5em;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice-icon-box i {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.notice-text {
+  position: absolute;
+  top: 0;
+  left: 4.5em;
+  height: 100%;
+}
+
+.notice-text p {
+  width: fit-content;
+  height: 100%;
+  padding: 0 0.5em;
+  margin: auto;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 0.9em;
+}

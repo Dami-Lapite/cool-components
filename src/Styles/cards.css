@@ -1,0 +1,98 @@
+.overlay-card-1 {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  background-color: #dddddd;
+  -ms-transform: rotate(-2deg); /* IE 9 */
+  transform: rotate(-2deg);
+}
+
+.overlay-card-2 {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  background-color: #336690;
+  background-image: url("./overlay.png"),
+    -moz-linear-gradientlinear-gradient(135deg, #4aabd8, #165a92 85%);
+  background-image: url("./overlay.png"),
+    -webkit-linear-gradientlinear-gradient(135deg, #4aabd8, #165a92 85%);
+  background-image: url("./overlay.png"),
+    -ms-linear-gradientlinear-gradient(135deg, #4aabd8, #165a92 85%);
+  background-image: url("./overlay.png"),
+    linear-gradient(135deg, #4aabd8, #165a92 85%);
+  -ms-transform: rotate(2deg); /* IE 9 */
+  transform: rotate(2deg);
+}
+
+.overlay-card-2.dark {
+  background-color: #254763;
+  background-image: url("./overlay.png"),
+    -moz-linear-gradientlinear-gradient(135deg, #3690b9, #254763 85%);
+  background-image: url("./overlay.png"),
+    -webkit-linear-gradientlinear-gradient(135deg, #3690b9, #254763 85%);
+  background-image: url("./overlay.png"),
+    -ms-linear-gradientlinear-gradient(135deg, #3690b9, #254763 85%);
+  background-image: url("./overlay.png"),
+    linear-gradient(135deg, #3690b9, #254763 85%);
+}
+
+.card-line {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin: 1.5em;
+  position: relative;
+}
+
+.card.small {
+  width: 8em;
+}
+
+.card.medium {
+  width: 18em;
+}
+
+.card.wide {
+  width: 90%;
+}
+
+.card.short {
+  height: 5em;
+}
+
+.card.tall {
+  height: 8em;
+}
+
+.tag {
+  position: absolute;
+  top: -0.5em;
+  right: -1em;
+  border-radius: 0.25em;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(65, 65, 65, 0.9);
+  color: #ffffff;
+}
+
+.tag p {
+  padding: 0.1em 0.5em;
+  margin: 0;
+  font-size: 0.85em;
+}
