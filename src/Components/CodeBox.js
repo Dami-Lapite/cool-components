@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/codeBox.css";
+import Notice from "./Notice";
 
 export default function CodeBox() {
   return (
@@ -96,15 +97,11 @@ export default function CodeBox() {
                   </div>
                 </div>
                 <div className="component-card">
-                  <div className="notice">
-                    <div className="notice-icon-box">
-                      <i className="fas fa-exclamation"></i>
-                    </div>
-                    <div className="notice-text ubuntu">
-                      <p>This page is inspired by the Tailwind.css website</p>
-                    </div>
-                  </div>
+                  <Notice text="This page is inspired by the Tailwind.css website" />
                 </div>
+              </div>
+              <div className="tag">
+                <p className="ubuntu">code box</p>
               </div>
             </div>
           </div>

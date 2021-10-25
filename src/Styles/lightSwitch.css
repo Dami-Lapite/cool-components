@@ -35,11 +35,11 @@
 
 .sun {
   position: absolute;
-  right: 3.2em;
-  width: 1.6em;
-  height: 1.6em;
+  right: 3.3em;
+  width: 1.4em;
+  height: 1.4em;
   border-radius: 50%;
-  background-color: rgb(255, 255, 240);
+  background-color: rgb(238, 238, 187);
   transition: right 500ms ease, background-color 500ms ease;
 }
 

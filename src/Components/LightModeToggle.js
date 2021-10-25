@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Styles/switch.css";
+import "../Styles/lightSwitch.css";
 
 export default class LightModeToggle extends Component {
   toggleLightMode = () => {

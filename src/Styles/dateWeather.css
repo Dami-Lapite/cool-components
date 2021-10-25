@@ -1,0 +1,88 @@
+.dw-container {
+  width: 95%;
+  height: 95%;
+}
+
+.weather-container {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.weather {
+  background-color: rgba(179, 179, 179, 0.7);
+  margin: 0.3em 0em;
+  border-radius: 0.5em;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather img {
+  padding: 0;
+  margin: 0;
+}
+
+.weather p {
+  margin: 0;
+  padding: 0.5em;
+  color: #444444;
+  font-weight: 700;
+}
+
+.weather-container .details {
+  color: #444444;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  position: absolute;
+  bottom: 0.5em;
+}
+
+.temperature {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.location {
+  font-size: 1.1em;
+}
+
+.date-container {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-container p {
+  color: #444444;
+  text-align: center;
+}
+
+.dayOfWeek {
+  font-size: 1.1em;
+}
+
+.month {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.year {
+  font-size: 1em;
+}
