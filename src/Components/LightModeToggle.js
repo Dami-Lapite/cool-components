@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../Styles/lightSwitch.css";
+import "../Styles/animations.css";
 
 export default class LightModeToggle extends Component {
   toggleLightMode = () => {
@@ -21,7 +22,7 @@ export default class LightModeToggle extends Component {
       <div className="switch-container">
         <div
           id="switch"
-          className="switch color-moded"
+          className="switch color-moded hvr-bob"
           onClick={this.toggleLightMode}
         >
           <div className="sun color-moded"></div>
@@ -30,9 +31,10 @@ export default class LightModeToggle extends Component {
             <p>LIGHT</p>
           </span>
           <span className="label color-moded dark-label ubuntu">
-            <p>DARK</p>
+            <p>DARK </p>
           </span>
         </div>
+        <p className="prompt hvr-buzz ubuntu">Flip the switch!</p>
       </div>
     );
   }

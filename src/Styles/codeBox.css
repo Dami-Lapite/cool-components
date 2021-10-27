@@ -5,10 +5,10 @@
 
 .component-card {
   position: absolute;
-  right: -20em;
+  right: -15em;
   bottom: 2.5em;
   z-index: 2;
-  width: 25em;
+  width: 18em;
   height: 5em;
   border-radius: 0.5em;
   background-color: #e2e2e2;

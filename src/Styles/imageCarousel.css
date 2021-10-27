@@ -1,0 +1,38 @@
+.image-carousel-container {
+  width: 100%;
+  height: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-carousel {
+  width: fit-content;
+  max-width: 83%;
+  height: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-carousel img:first-child {
+  margin-left: 0em;
+}
+
+.image-carousel img {
+  height: 90%;
+  margin-left: 1em;
+  border-radius: 0.5em;
+}

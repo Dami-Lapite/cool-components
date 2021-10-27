@@ -1,7 +1,6 @@
 .notice {
   width: 100%;
   height: 100%;
-  background-color: rgb(255, 255, 255);
   border-radius: 0.5em;
   position: relative;
 }
@@ -26,8 +25,11 @@
 }
 
 .notice-icon-box i {
-  font-size: 2em;
   color: #ffffff;
+}
+
+.notice-icon-box i.exclamation {
+  font-size: 1.8em;
 }
 
 .notice-text {
@@ -36,6 +38,8 @@
   left: 4.5em;
   height: 100%;
   color: #272727;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0em 0.5em 0.5em 0em;
 }
 
 .notice-text p {

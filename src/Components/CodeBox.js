@@ -100,7 +100,7 @@ export default function CodeBox() {
                   <Notice text="This page is inspired by the Tailwind.css website" />
                 </div>
               </div>
-              <div className="tag">
+              <div className="tag color-moded">
                 <p className="ubuntu">code box</p>
               </div>
             </div>

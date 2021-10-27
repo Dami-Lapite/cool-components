@@ -52,12 +52,15 @@
 }
 
 .card {
-  background-color: rgb(255, 255, 255);
   z-index: 2;
   border-radius: 0.5em;
   display: inline-block;
   margin: 1.3em;
   position: relative;
+}
+
+.card.white {
+  background-color: rgb(255, 255, 255);
 }
 
 .card.small {
@@ -136,6 +139,11 @@
   width: fit-content;
   background-color: rgba(65, 65, 65, 0.9);
   color: #ffffff;
+}
+
+.tag.dark {
+  background-color: #ffffff;
+  color: rgb(65, 65, 65);
 }
 
 .tag p {
